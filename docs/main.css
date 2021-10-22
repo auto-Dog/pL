@@ -69,14 +69,14 @@ div#album-picture img {
 }
 
 #music-title {
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 500;
     margin-bottom: 8px;
     color: #fff;
 }
 
 #music-singer {
-    font-size: 12px;
+    font-size: 20px;
 
     color: #aaa;
 }
