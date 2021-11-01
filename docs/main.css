@@ -1,8 +1,9 @@
 /*
 * @Author: hwaphon
 * @Date:   2017-02-16 16:31:15
-* @Last Modified by:   hwaphon
-* @Last Modified time: 2017-03-26 20:14:33
+* @Last Modified by:   alphadu
+* @Last Modified time: 2021-11-01 23:44:00
+* @for red style: use the method near line 23, line 37, line 272, line 297 or search: note this line for red style
 */
 
 *,*::after,*::before {
@@ -17,7 +18,10 @@ html,body {
     font-family: sans-serif;
 }
 body {
-    background-image: linear-gradient(to top, #222831 0%, #393E46 100%);
+    /*background-image: linear-gradient(to top, #222831 0%, #393E46 100%);	/*note this line for red style*/
+	background-image: linear-gradient(to top, #B22845 72%, #D1A358 100%); 
+	
+	
 }
 
 article#music-player {
@@ -30,7 +34,7 @@ article#music-player {
 
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    /*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);	/*note this line for red style*/
     box-shadow: 1px 0px 2px 2px rgba(0,0,0,.1);
 }
 
@@ -265,7 +269,7 @@ article#music-list {
     width: 80%;
     height: 380px;
     margin: 0px 10%;
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    /*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);	/*note this line for red style*/
     box-shadow: 1px 0px 2px 2px rgba(0,0,0,.1);
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -289,7 +293,8 @@ article#music-list {
 }
 
 #music-list li.selected {
-    background-color: #243949;
+    /*background-color: #243949;		/*note this line for red style*/
+	background-color: #771C2E;
 }
 
 #music-list li:hover {
